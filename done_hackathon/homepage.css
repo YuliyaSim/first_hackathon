@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Griffy);
+
+body 
+{
+background-image:url("background1.png");
+background-repeat: no-repeat;
+/*background-size:contain;*/
+
+height: 100vh;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-bg-transparent {
+    background-color: rgba(148,0,211,0.2)!important;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+}
+.hearder {
+    grid-area:header ;
+    font-family: Verdana;
+    color: blue;
+    text-shadow: 5px 5px 10px black;
+    background-image:url("background1.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.main {
+    justify-content: center;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+.h_1 {
+    font-family:'Griffy';
+    color: black;
+    text-shadow: 5px 5px 10px purple;
+    font-size: 80px;
+    animation-duration: 2s;
+    /*animation-iteration-count: infinite;*/
+
+}
+.h_2{
+    color: #381356;
+    text-shadow: : 5px 5px black;
+    font-weight: bold;
+}
+
+/* main for instructions */
+.instruccions {
+    grid-area: main;
+    border: solid 10px;
+    height: 500px;
+    width: 800px;
+}
+
+
+
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+/* Copy Right Footer */
+.footer-copyright {	grid-area: footer ; background: #222;	padding: 5px 0; }
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright p { text-size-adjust:auto  ;	color: #969696;	margin: 2px 0 0}
+

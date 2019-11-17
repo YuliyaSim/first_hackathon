@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <Title>Game</Title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="game.css">
+  <script type="text/javascript" src="game.js"></script>
+
+</head>
+
+<body>
+  <!--Header -->
+  <header class="header">
+      <!--Navigation Panel-->
+      <nav class="fixed-top navbar-light bg-transparent my-bg-transparent">
+        <div class="d-flex bd-highlight p-2">
+          <div class="p-2"><a href="homepage.html">Home</a></div>
+          <!-- <div class="p-2 "><a href="Instruc">Instructions</a></div> -->
+          <div class="p-2"><a href="instructions.html">Learn to tell Time</a></div>
+          <!-- <div class="p-2 "><a href="#Contact">about us</a></div> -->
+        </div>
+      </nav>
+    </header>
+
+  <div class="container">
+    <div>
+    
+      <div class="grid-item game_header col-md-12">
+        <h2 class="h_1" id="game_2"> Let's rescue time!</h2>
+        <img src="red_queen.png" class="queen" id="queen">
+
+        <p id="del_text">
+          <h6 id="score_h6">The Red Queen has request from you to recue time ! Time was stolen long ago by the Mad-Hatter to spend in tea partys and fancy hats. Only if you proof to know how to tell time the Mad-hatter will let you have it.
+            <br><br>
+            Answer correctly as many of the following questions and get time back!
+            <br><br>
+            Good luck!
+          </h6>
+        </p>
+      </div>
+    </div>
+    <!-- <div class="row game_main"> -->
+      <div class="grid-item row game_main">
+       <div class="card col-md-4" style="width: 40rem;">
+         <img id= 'myimage'src="3.00.png" class="card_im">
+         <div id = "card" class="card-body">
+           <p class="card-text">According to the clock above what is the time?</p>
+         </div>
+         <form id ='frm' name="myForm" onsubmit='return validateForm(this)' action ='' >
+                       <input type = "radio" id='1' name = "group" value = 'false'>A. 4:30<br>
+                       <input type = "radio" id='2' name = "group" value = 'true' >B. 3:00 <br>
+                       <input type = "radio" id='3' name = "group" value="false" >C. 9:50 <br></br>
+                       <input class = "center btn btn-primary" id = 'btn' type="submit" value='Submit'>
+          </form>                   
+       </div>
+     </div>
+ </div>
+ <!-- <script src="game.js"></script> -->
+</body>
+</html>

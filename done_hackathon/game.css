@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Griffy);
+​
+.header {
+    border: 1px solid blue;
+    height: 40%
+}
+​
+nav {
+    border: 3px solid red;
+}
+
+body {
+    background-image:url("background1.png");
+    background-repeat: no-repeat;
+
+
+    height: 100vh;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-bg-transparent {
+    background-color: rgba(148,0,211,0.2)!important;
+}
+
+.container {
+    position: absolute;
+    top: 90px;
+    /*margin-left: 12.5%;*/
+    margin-bottom: 15px;
+    width: 75%; 
+    height: 550px; 
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.5);
+    /*margin-bottom: 50px;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*border: 1px solid red;*/
+
+}
+
+.card{
+    position: absolute;
+    display: block;
+    margin-left: 100px !important;
+    /*margin-right: auto;*/
+    /*border: 1px solid red;*/
+}
+
+.h_1 {
+    font-family:'Griffy';
+    color: black;
+    text-shadow: 5px 5px 10px purple;
+    font-size: 50px;
+/*    margin-top: 50px;
+*/}
+
+h3 {
+    font-size: 55px;
+}
+
+.txtp_p {
+    color: black;
+    text-shadow: 5px 5px 10px purple;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.card {
+    padding-top: 20px;
+    /*padding-bottom: 50px:;*/
+    background-color: #E6E6E6;
+    margin-left: 30px;
+}
+
+h6 {
+    color: black;
+    text-shadow: 5px 5px 10px purple;
+    margin-top: 10px;
+}
+
+.queen {
+    width: 35%;
+    height: 35%;
+    /*margin-left: 200px;
+    margin-bottom: 100px;*/
+}
+/*.grid-item {
+    vertical-align: middle;
+    margin-right: 50px;
+    }*/
+
+/*.list-group{
+    padding-top: -50;
+    }*/
